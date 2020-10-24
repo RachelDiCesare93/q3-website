@@ -1,0 +1,72 @@
+/* fonts */
+
+@font-face {
+    font-family: "introheadr-base";
+    src: url(/Desktop-Intro\ Script\ Rust/Fonts/introrustg-base2line.otf);
+  }
+  
+  @font-face {
+    font-family: "introheadr-base-a";
+    src: url(/Desktop-Intro\ Script\ Rust/Fonts/introscriptr-h2base.otf);
+  }
+  
+  @font-face {
+    font-family: "introheadr-base-b";
+    src: url(/Desktop-Intro\ Script\ Rust/Fonts/introheadr-base.otf);
+  }
+  
+  /* header */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5px double black;
+  }
+  
+  h3 {
+    font-family: "introheadr-base";
+  }
+  
+  span,
+  h4 {
+    font-family: "introheadr-base-a";
+  }
+  
+  nav {
+    cursor: pointer;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a,p {
+    text-decoration: none;
+    font-family: "introheadr-base-b";
+    font-weight: bold;
+    color: black;
+  }
+  
+  a:hover {
+    color: gray;
+  }
+  
+  /* footer */
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  @media only screen and (min-width: 999px) {
+    li {
+      display: inline;
+      margin: 15px;
+    }
+  
+    a,
+    h4,
+    p {
+      font-size: 20px;
+    }
+  }
+  
